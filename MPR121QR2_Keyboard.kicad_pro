@@ -186,7 +186,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -489,7 +493,13 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(0, 255, 0)",
+      "+3.3V_LDO": "rgb(255, 255, 0)",
+      "+5V DOMAIN": "rgb(0, 255, 255)",
+      "+5V USB": "rgb(194, 0, 194)",
+      "Earth": "rgb(255, 229, 191)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
